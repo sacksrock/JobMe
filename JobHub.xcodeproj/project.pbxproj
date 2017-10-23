@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C7A96871F9DDFC700C98A94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A96861F9DDFC700C98A94 /* AppDelegate.swift */; };
+		1C7A96891F9DDFC700C98A94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A96881F9DDFC700C98A94 /* ViewController.swift */; };
+		1C7A968C1F9DDFC700C98A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7A968A1F9DDFC700C98A94 /* Main.storyboard */; };
+		1C7A968E1F9DDFC700C98A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7A968D1F9DDFC700C98A94 /* Assets.xcassets */; };
+		1C7A96911F9DDFC700C98A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7A968F1F9DDFC700C98A94 /* LaunchScreen.storyboard */; };
+		1C7A969C1F9DDFC700C98A94 /* JobHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A969B1F9DDFC700C98A94 /* JobHubTests.swift */; };
+		1C7A96A71F9DDFC700C98A94 /* JobHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A96A61F9DDFC700C98A94 /* JobHubUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C7A96981F9DDFC700C98A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C7A967B1F9DDFC700C98A94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C7A96821F9DDFC700C98A94;
+			remoteInfo = JobHub;
+		};
+		1C7A96A31F9DDFC700C98A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C7A967B1F9DDFC700C98A94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C7A96821F9DDFC700C98A94;
+			remoteInfo = JobHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C7A96831F9DDFC700C98A94 /* JobHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7A96861F9DDFC700C98A94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C7A96881F9DDFC700C98A94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C7A968B1F9DDFC700C98A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C7A968D1F9DDFC700C98A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C7A96901F9DDFC700C98A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C7A96921F9DDFC700C98A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C7A96971F9DDFC700C98A94 /* JobHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7A969B1F9DDFC700C98A94 /* JobHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHubTests.swift; sourceTree = "<group>"; };
+		1C7A969D1F9DDFC700C98A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C7A96A21F9DDFC700C98A94 /* JobHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7A96A61F9DDFC700C98A94 /* JobHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHubUITests.swift; sourceTree = "<group>"; };
+		1C7A96A81F9DDFC700C98A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C7A96801F9DDFC700C98A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7A96941F9DDFC700C98A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7A969F1F9DDFC700C98A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C7A967A1F9DDFC700C98A94 = {
+			isa = PBXGroup;
+			children = (
+				1C7A96851F9DDFC700C98A94 /* JobHub */,
+				1C7A969A1F9DDFC700C98A94 /* JobHubTests */,
+				1C7A96A51F9DDFC700C98A94 /* JobHubUITests */,
+				1C7A96841F9DDFC700C98A94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C7A96841F9DDFC700C98A94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C7A96831F9DDFC700C98A94 /* JobHub.app */,
+				1C7A96971F9DDFC700C98A94 /* JobHubTests.xctest */,
+				1C7A96A21F9DDFC700C98A94 /* JobHubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C7A96851F9DDFC700C98A94 /* JobHub */ = {
+			isa = PBXGroup;
+			children = (
+				1C7A96861F9DDFC700C98A94 /* AppDelegate.swift */,
+				1C7A96881F9DDFC700C98A94 /* ViewController.swift */,
+				1C7A968A1F9DDFC700C98A94 /* Main.storyboard */,
+				1C7A968D1F9DDFC700C98A94 /* Assets.xcassets */,
+				1C7A968F1F9DDFC700C98A94 /* LaunchScreen.storyboard */,
+				1C7A96921F9DDFC700C98A94 /* Info.plist */,
+			);
+			path = JobHub;
+			sourceTree = "<group>";
+		};
+		1C7A969A1F9DDFC700C98A94 /* JobHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C7A969B1F9DDFC700C98A94 /* JobHubTests.swift */,
+				1C7A969D1F9DDFC700C98A94 /* Info.plist */,
+			);
+			path = JobHubTests;
+			sourceTree = "<group>";
+		};
+		1C7A96A51F9DDFC700C98A94 /* JobHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C7A96A61F9DDFC700C98A94 /* JobHubUITests.swift */,
+				1C7A96A81F9DDFC700C98A94 /* Info.plist */,
+			);
+			path = JobHubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C7A96821F9DDFC700C98A94 /* JobHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7A96AB1F9DDFC700C98A94 /* Build configuration list for PBXNativeTarget "JobHub" */;
+			buildPhases = (
+				1C7A967F1F9DDFC700C98A94 /* Sources */,
+				1C7A96801F9DDFC700C98A94 /* Frameworks */,
+				1C7A96811F9DDFC700C98A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JobHub;
+			productName = JobHub;
+			productReference = 1C7A96831F9DDFC700C98A94 /* JobHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C7A96961F9DDFC700C98A94 /* JobHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7A96AE1F9DDFC700C98A94 /* Build configuration list for PBXNativeTarget "JobHubTests" */;
+			buildPhases = (
+				1C7A96931F9DDFC700C98A94 /* Sources */,
+				1C7A96941F9DDFC700C98A94 /* Frameworks */,
+				1C7A96951F9DDFC700C98A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C7A96991F9DDFC700C98A94 /* PBXTargetDependency */,
+			);
+			name = JobHubTests;
+			productName = JobHubTests;
+			productReference = 1C7A96971F9DDFC700C98A94 /* JobHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C7A96A11F9DDFC700C98A94 /* JobHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7A96B11F9DDFC700C98A94 /* Build configuration list for PBXNativeTarget "JobHubUITests" */;
+			buildPhases = (
+				1C7A969E1F9DDFC700C98A94 /* Sources */,
+				1C7A969F1F9DDFC700C98A94 /* Frameworks */,
+				1C7A96A01F9DDFC700C98A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C7A96A41F9DDFC700C98A94 /* PBXTargetDependency */,
+			);
+			name = JobHubUITests;
+			productName = JobHubUITests;
+			productReference = 1C7A96A21F9DDFC700C98A94 /* JobHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C7A967B1F9DDFC700C98A94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Daniel de la Iglesia Gonzalez";
+				TargetAttributes = {
+					1C7A96821F9DDFC700C98A94 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 86CZ52Y2CQ;
+						ProvisioningStyle = Automatic;
+					};
+					1C7A96961F9DDFC700C98A94 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 86CZ52Y2CQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1C7A96821F9DDFC700C98A94;
+					};
+					1C7A96A11F9DDFC700C98A94 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 86CZ52Y2CQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1C7A96821F9DDFC700C98A94;
+					};
+				};
+			};
+			buildConfigurationList = 1C7A967E1F9DDFC700C98A94 /* Build configuration list for PBXProject "JobHub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C7A967A1F9DDFC700C98A94;
+			productRefGroup = 1C7A96841F9DDFC700C98A94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C7A96821F9DDFC700C98A94 /* JobHub */,
+				1C7A96961F9DDFC700C98A94 /* JobHubTests */,
+				1C7A96A11F9DDFC700C98A94 /* JobHubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C7A96811F9DDFC700C98A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7A96911F9DDFC700C98A94 /* LaunchScreen.storyboard in Resources */,
+				1C7A968E1F9DDFC700C98A94 /* Assets.xcassets in Resources */,
+				1C7A968C1F9DDFC700C98A94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7A96951F9DDFC700C98A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7A96A01F9DDFC700C98A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C7A967F1F9DDFC700C98A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7A96891F9DDFC700C98A94 /* ViewController.swift in Sources */,
+				1C7A96871F9DDFC700C98A94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7A96931F9DDFC700C98A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7A969C1F9DDFC700C98A94 /* JobHubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7A969E1F9DDFC700C98A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7A96A71F9DDFC700C98A94 /* JobHubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C7A96991F9DDFC700C98A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C7A96821F9DDFC700C98A94 /* JobHub */;
+			targetProxy = 1C7A96981F9DDFC700C98A94 /* PBXContainerItemProxy */;
+		};
+		1C7A96A41F9DDFC700C98A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C7A96821F9DDFC700C98A94 /* JobHub */;
+			targetProxy = 1C7A96A31F9DDFC700C98A94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C7A968A1F9DDFC700C98A94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C7A968B1F9DDFC700C98A94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C7A968F1F9DDFC700C98A94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C7A96901F9DDFC700C98A94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C7A96A91F9DDFC700C98A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C7A96AA1F9DDFC700C98A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C7A96AC1F9DDFC700C98A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
+				INFOPLIST_FILE = JobHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gebulot.JobHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1C7A96AD1F9DDFC700C98A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
+				INFOPLIST_FILE = JobHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gebulot.JobHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1C7A96AF1F9DDFC700C98A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
+				INFOPLIST_FILE = JobHubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gebulot.JobHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobHub.app/JobHub";
+			};
+			name = Debug;
+		};
+		1C7A96B01F9DDFC700C98A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
+				INFOPLIST_FILE = JobHubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gebulot.JobHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobHub.app/JobHub";
+			};
+			name = Release;
+		};
+		1C7A96B21F9DDFC700C98A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
+				INFOPLIST_FILE = JobHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gebulot.JobHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JobHub;
+			};
+			name = Debug;
+		};
+		1C7A96B31F9DDFC700C98A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
+				INFOPLIST_FILE = JobHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gebulot.JobHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JobHub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C7A967E1F9DDFC700C98A94 /* Build configuration list for PBXProject "JobHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7A96A91F9DDFC700C98A94 /* Debug */,
+				1C7A96AA1F9DDFC700C98A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C7A96AB1F9DDFC700C98A94 /* Build configuration list for PBXNativeTarget "JobHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7A96AC1F9DDFC700C98A94 /* Debug */,
+				1C7A96AD1F9DDFC700C98A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C7A96AE1F9DDFC700C98A94 /* Build configuration list for PBXNativeTarget "JobHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7A96AF1F9DDFC700C98A94 /* Debug */,
+				1C7A96B01F9DDFC700C98A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C7A96B11F9DDFC700C98A94 /* Build configuration list for PBXNativeTarget "JobHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7A96B21F9DDFC700C98A94 /* Debug */,
+				1C7A96B31F9DDFC700C98A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C7A967B1F9DDFC700C98A94 /* Project object */;
+}
