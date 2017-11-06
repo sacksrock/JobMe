@@ -6,6 +6,8 @@ target 'JobHub' do
   use_frameworks!
 
   # Pods for JobHub
+
+  pod 'Firebase/Core'
   pod 'LinkedinSwift', '~> 1.6.6'
 
   target 'JobHubTests' do

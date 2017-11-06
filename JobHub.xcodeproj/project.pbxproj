@@ -54,6 +54,7 @@
 		773FE5BE2F156D368BB7645E /* Pods_JobHubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobHubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7A1F11ECD1C75EDF6F583E /* Pods-JobHubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobHubUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JobHubUITests/Pods-JobHubUITests.release.xcconfig"; sourceTree = "<group>"; };
 		88556FD3D76D9D2B0DC813DE /* Pods_JobHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99EF94EC1FB0649E00AE9A91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A8C1D5DB24F763CDE4C9EF90 /* Pods-JobHubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobHubUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JobHubUITests/Pods-JobHubUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8C4FE844993A99A90ADF9B7 /* Pods-JobHubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobHubTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JobHubTests/Pods-JobHubTests.release.xcconfig"; sourceTree = "<group>"; };
 		CEE3A19FE676CBADA577E2E4 /* Pods-JobHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobHub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JobHub/Pods-JobHub.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +115,7 @@
 		1C7A96851F9DDFC700C98A94 /* JobHub */ = {
 			isa = PBXGroup;
 			children = (
+				99EF94EC1FB0649E00AE9A91 /* GoogleService-Info.plist */,
 				1C7A96861F9DDFC700C98A94 /* AppDelegate.swift */,
 				1C7A96881F9DDFC700C98A94 /* ViewController.swift */,
 				1C7A968A1F9DDFC700C98A94 /* Main.storyboard */,
@@ -313,9 +315,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JobHub/Pods-JobHub-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IOSLinkedInAPIFix/IOSLinkedInAPIFix.framework",
+				"${BUILT_PRODUCTS_DIR}/LinkedinSwift/LinkedinSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IOSLinkedInAPIFix.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LinkedinSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -716,6 +729,7 @@
 				1C7A96AD1F9DDFC700C98A94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C7A96AE1F9DDFC700C98A94 /* Build configuration list for PBXNativeTarget "JobHubTests" */ = {
 			isa = XCConfigurationList;
@@ -724,6 +738,7 @@
 				1C7A96B01F9DDFC700C98A94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C7A96B11F9DDFC700C98A94 /* Build configuration list for PBXNativeTarget "JobHubUITests" */ = {
 			isa = XCConfigurationList;
@@ -732,6 +747,7 @@
 				1C7A96B31F9DDFC700C98A94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
